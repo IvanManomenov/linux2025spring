@@ -16,14 +16,7 @@ Date of create: 13.06.25
 
 ### 1. Создать 4 пользователей test1, test2, test3, test4
 
-```
-sudo adduser test1
-sudo adduser test2
-sudo adduser test3
-sudo adduser test4
-```
-
-Следуя инструкциям, введите нужную информацию для каждого пользователя.
+![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab1/lab1-1.png)
 
 ### 2. Для пользователей test1, test2 разрешить получение полномочий root
 Для этого добавим их в группу sudo:
@@ -81,15 +74,4 @@ sudo chmod 640 /home/test2/restricted_file.txt  # r-w for owner (test2), r for g
 ```
 
 ### 9. Удалить созданные группы и пользователей
-Удаляем пользователей:
-```
-sudo deluser --remove-home test1
-sudo deluser --remove-home test2
-sudo deluser --remove-home test3
-sudo deluser --remove-home test4
-```
-Удаляем группы:
-```
-sudo groupdel group1
-sudo groupdel group2
-```
+![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab1/lab1-2.png)
