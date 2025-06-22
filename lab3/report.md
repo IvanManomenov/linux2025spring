@@ -12,7 +12,7 @@ Author: Manomenov Ivan
 
 Lab: Lab3
 
-Date of create: 13.06.25
+Date of create: 21.06.25
 
 ### 1. Создание FastAPI 
 
@@ -50,11 +50,11 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ### 3. Построение Docker-образа
 
-![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab1/lab3-1.png)
+![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab3/lab3-1.png)
 
 ### 4. Проверка
 Запускаем на http://localhost:8000/
 
-![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab1/lab3-2.png)
+![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab3/lab3-2.png)
 
 Успех
