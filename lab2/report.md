@@ -34,8 +34,8 @@ int main() {
 Вызываем ее, во втором терминале при помощи команды
 ```watch -n 1 "ps aux | grep leak | grep -v grep"``` отслеживаем память:
 
-![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab1/lab2-1.png)
-![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab1/lab2-2.png)
+![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab2/lab2-1.png)
+![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab2/lab2-2.png)
 
 Как мы видим, память утекает (Резкий рост RSS указывает на утечку)
 
@@ -57,7 +57,7 @@ int main() {
 ```
 
 При помощи ```ps aux | grep 'Z'``` детектим зомби-процесс:
-![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab1/lab2-3.png)
+![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab2/lab2-3.png)
 
 ## 3. CRON
 
@@ -67,4 +67,4 @@ int main() {
 ```
 (Каждую минуту заходит на мой отчет по 1 лабе и возвращает логи)
 Результат (много логов раз в минуту):
-![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab1/lab2-4.png)
+![](https://github.com/IvanManomenov/linux2025spring/blob/main/lab2/lab2-4.png)
